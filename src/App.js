@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import GitHubLinks from './components/Githublinks';
-import SiteLinks from './components/sitelinks';
+import GitHubLinks from './Githublinks';
+import SiteLinks from './sitelinks';
 
 function App() {
   return (
