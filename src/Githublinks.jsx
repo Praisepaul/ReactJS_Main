@@ -3,6 +3,7 @@ import React from 'react';
 const Githublinks = () => {
   return (
     <div className="links-container">
+      <div className="links-section">
       <h2>GitHub Repositories</h2>
       <table className="links-table">
         <thead>
@@ -62,7 +63,8 @@ const Githublinks = () => {
           </tr>
         </tbody>
       </table>
-
+</div>
+<div className="links-section">
       <h2>Working Sites</h2>
       <table className="links-table">
         <thead>
@@ -122,6 +124,7 @@ const Githublinks = () => {
           </tr>
         </tbody>
       </table>
+      </div>
     </div>
   );
 }
