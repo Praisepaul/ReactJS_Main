@@ -1,16 +1,20 @@
 import React from 'react';
 import './App.css';
-import GitHubLinks from './Githublinks';
-import SiteLinks from './sitelinks';
-
-function App() {
+import './Githublinks';
+import Githublinks from './Githublinks';
+const App = () => {
   return (
-    <div className="App">
-      <h1>Project Landing Page</h1>
-      <div className="button-container">
-        <GitHubLinks />
-        <SiteLinks />
+    <div className="landing-page">
+      <div className="header">
+        <h1>Welcome to Main Site Navigation</h1>
+        <p>Click on the respective links to navigate to each tasks.</p>
       </div>
+
+      <div className="button-container">
+        <div className="links-container">
+          <Githublinks />
+    </div>
+    </div>
     </div>
   );
 }

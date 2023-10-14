@@ -1,25 +1,28 @@
-body{
-  background-image: linear-gradient(rgb(201, 183, 102), rgb(118, 214, 94));
-}
-.button-container {
-  display: block;
-  width: 100%;
-  padding: 55px;
-  color: aliceblue;
+
+.links-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 30px;
 }
 
-.links {
-  border: 1px solid #ff0101;
-  width: 70%;
-  padding: 20px;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  cursor: pointer;
-  padding: 10px;
-  float: left;
+.links ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
 }
 
-.li{
-  color: black;
+.links li {
+  margin: 10px 0;
+}
+
+.links a {
   text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.links a:hover {
+  color: #00ce26;
 }
