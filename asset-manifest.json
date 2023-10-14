@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Praisepaul/ReactJS_Main/static/css/main.205300e2.css",
+    "main.js": "/Praisepaul/ReactJS_Main/static/js/main.ce7c4eae.js",
+    "index.html": "/Praisepaul/ReactJS_Main/index.html",
+    "main.205300e2.css.map": "/Praisepaul/ReactJS_Main/static/css/main.205300e2.css.map",
+    "main.ce7c4eae.js.map": "/Praisepaul/ReactJS_Main/static/js/main.ce7c4eae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.205300e2.css",
+    "static/js/main.ce7c4eae.js"
+  ]
+}
