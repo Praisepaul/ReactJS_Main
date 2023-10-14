@@ -28,7 +28,6 @@ function App() {
       <li className="li"><a href="https://praisepaul.github.io/sample_portfolio/" target="_blank" rel="noopener noreferrer">Task 6 - Personal Portfolio</a></li>
     </ul>
     </div>
-        <SiteLinks />
       </div>
     </div>
   );
